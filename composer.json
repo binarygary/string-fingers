@@ -1,0 +1,21 @@
+{
+  "name": "binarygary/string-fingers",
+  "description": "Generates guitar fingering.",
+  "type": "wordpress-plugin",
+  "require": {
+    "pimple/pimple": "^3.2"
+  },
+  "authors": [
+    {
+      "name": "Gary Kovar",
+      "email": "plugins@binarygary.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "String\\Fingers\\": "src/"
+    },
+    "files": [
+    ]
+  }
+}
